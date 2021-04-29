@@ -1,6 +1,6 @@
 @_exported import ObjCXercesSwift
 
-public class XMLParseConsumer {
+open class XMLParseConsumer {
     func startElement(name: String) {}
 }
 
