@@ -6,8 +6,8 @@
 //
 
 
-#import "XercesWrapper.h"
-#import "XercesSwift.hpp"
+#import <XercesWrapper.h>
+#import <XercesSwift.hpp>
 
 #include <iostream>
 
