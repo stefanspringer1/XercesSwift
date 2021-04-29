@@ -24,8 +24,8 @@
 // ---------------------------------------------------------------------------
 //  Includes
 // ---------------------------------------------------------------------------
-#include "xercesc/util/XMLUniDefs.hpp"
-#include "xercesc/sax/AttributeList.hpp"
+#include <xercesc/util/XMLUniDefs.hpp>
+#include <xercesc/sax/AttributeList.hpp>
 #include "SAXPrint.hpp"
 
 
