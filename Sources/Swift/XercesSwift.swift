@@ -1,7 +1,8 @@
 @_exported import ObjCXercesSwift
 
 open class XMLParseConsumer {
-    func startElement(name: String) {}
+    public init() {}
+    public func startElement(name: String) {}
 }
 
 private func utf16Buffer2String(buffer:UnsafeMutableRawPointer, length: Int32) -> String {
