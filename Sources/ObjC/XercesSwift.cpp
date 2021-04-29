@@ -11,10 +11,10 @@ char *convert(const std::string & s)
 }
 
 int XercesSwift::parse(char* path, void* parseConsumer, void(*f)(void*,void*,int)) {
-    std::vector<std::string> args {
-        "",
-        path
-    };
+    std::vector<std::string> args;
+    args.push_back("");
+    args.push_back(path);
+
     std::vector<char*> cstrings;
     cstrings.reserve(args.size());
 
