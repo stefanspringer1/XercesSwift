@@ -23,14 +23,14 @@ public class XercesParser {
     let parseConsumer: XMLParseConsumer
     let xercesWrapper: XercesWrapper
     
-    init(withParseConsumer parseConsumer: XMLParseConsumer) {
+    public init(withParseConsumer parseConsumer: XMLParseConsumer) {
         self.parseConsumer = parseConsumer
         xercesWrapper = XercesWrapper()
         xercesWrapper.parseConsumer = UnsafeMutableRawPointer(Unmanaged.passUnretained(parseConsumer).toOpaque())
         xercesWrapper.startElement = startElement
     }
 
-    func parse(fromPath path: String) -> Int {
+    public func parse(fromPath path: String) -> Int {
         return Int(xercesWrapper.parse(path))
     }
 }
