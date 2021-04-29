@@ -7,7 +7,7 @@
 
 
 #import <XercesWrapper.h>
-#import <XercesSwift.hpp>
+#import "XercesSwift.hpp"
 
 #include <iostream>
 
