@@ -2,7 +2,7 @@
 
 open class XMLParseConsumer {
     public init() {}
-    public func startElement(name: String) {}
+    open func startElement(name: String) {}
 }
 
 private func utf16Buffer2String(buffer:UnsafeMutableRawPointer, length: Int32) -> String {
