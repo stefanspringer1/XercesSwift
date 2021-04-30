@@ -18,7 +18,7 @@ This should be doable on a Linux system and easy on Windows (by using regsvr32).
 
 # The errors
 
-See the example project [XercesSwiftExample](https://github.com/stefanspringer1/XercesSwiftExample), where this package is included, for the error messages that arise when trying to use this package: the library is actually not available.
+See the example project [XercesSwiftExample](https://github.com/stefanspringer1/XercesSwiftExample), where this package is included, for the error messages that arise when trying to use this package: the content of the library is actually not available.
 
 Of course, any help is welcome!
 
