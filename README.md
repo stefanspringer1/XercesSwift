@@ -1,4 +1,4 @@
-# XercesSwift
+# XercesSwift: bindings of Xerces+C++ to Swift
 
 This is a Swift wrapper for Xerces-C++ to use it as SAX parser including validation, _in an experimental state._
 
