@@ -1,0 +1,9 @@
+module libxerces [system] {
+  header "libxerces.h"
+  
+  link "XMLFormatter"
+  link "SAXParser"
+  link "XMLPlatformUtils"
+  link "XMLException"
+  // ...
+}

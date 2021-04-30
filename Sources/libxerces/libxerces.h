@@ -1,0 +1,3 @@
+#include "../XercesHeaders/src/xercesc/sax/HandlerBase.hpp"
+#include "../XercesHeaders/src/xercesc/framework/XMLFormatter.hpp"
+// ...

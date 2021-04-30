@@ -12,6 +12,10 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
+        .systemLibrary(
+              name: "libxerces",
+              pkgConfig: "libxerces"
+        ),
         .target(
             name: "ObjCXercesSwift",
             path: "Sources/ObjC",
