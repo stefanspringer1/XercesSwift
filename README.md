@@ -1,6 +1,6 @@
 # XercesSwift
 
-Swift wrapper for Xerces-C++ to use it as SAX parser includig validation, in an experimental state.
+This is a Swift wrapper for Xerces-C++ to use it as SAX parser includig validation, in an experimental state.
 
 # Status:
 
