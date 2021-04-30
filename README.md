@@ -24,4 +24,4 @@ Of course, any help is welcome!
 
 ---
 
-Legal notice: Using any of the included material is at your own risk. The C++ files, except the ones for the binding to Swift, are from [https://xerces.apache.org/xerces-c/](https://xerces.apache.org/xerces-c/) and are used under the Apache 2 license.
+Legal notice: Usage of any of the included material is to your own risk. The C++ files, except the ones for the binding to Swift, are from [https://xerces.apache.org/xerces-c/](https://xerces.apache.org/xerces-c/) and are used under the Apache 2 license.
