@@ -12,7 +12,7 @@ This is a Swift wrapper for Xerces-C++ to use it as SAX parser including validat
 
 Note that there is another project (MLIRSwift)[https://github.com/circt/MLIRSwift] by someone else where working in that manner with a binary library _does_ function, and, in principle, we are trying here to do the "same" here.
 
-# Installing the library:
+# Installing the library
 
 This should be doable on a Linux system and easy on Windows (by using regsvr32). On macOS, this is more complicated, it seems you have to make an appropriate package info file and locate it at an appropriate place. The script `Tools/install-pkg-config.sh` tries to accomplish this. See the already mentioned (MLIRSwift)[https://github.com/circt/MLIRSwift] where this actually works.
 
