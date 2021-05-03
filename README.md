@@ -10,7 +10,7 @@ This is a Swift wrapper for Xerces-C++ to use it as SAX parser including validat
 - **The problem is to make this working as a Swift package,** with the goal to also use it on other platforms than the Apple platforms. There is currently no possibility to include a (platform dependant) dynamic library in such a project (hopefully, in the future there could be such a possibility). So that library has to be "installed" on the target system. This is the part where problems arise (see below): the content of the library is not available, there are according error messages during the build process.
 - The content of the files in `Sources/libxerces` might still be incomplete, but this should not be the source of the mentioned problems.
 
-Note that the C++ sources from Xerces-C++ need first to be configurated for some platform before the header files can be used.
+Note that it was necessary for the C++ sources from Xerces-C++ to be configurated before being included them here.
 
 Also note that there is another project [MLIRSwift](https://github.com/circt/MLIRSwift) by someone else where working in that manner with a binary library _does_ function, and, in principle, we are trying to do the "same" here.
 
